@@ -1,0 +1,5 @@
+.idea
+.venv
+config.py
+Git Repo Bot.session
+__pycache__
