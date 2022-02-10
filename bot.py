@@ -14,9 +14,6 @@ def IKM(data):
 
 
 print("starting")
-# api_id = 859123
-# api_hash = 'de7f36205f4ff5b0190ef2b3c3646486'
-# bot_token = '5295491783:AAFHwfQE8AmIK8cU5lJFI2LyDmh204G2r0I'
 
 client = Client(session_name='Git Repo Bot', bot_token=bot_token, api_hash=api_hash, api_id=api_id)
 
