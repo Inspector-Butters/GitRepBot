@@ -48,7 +48,7 @@ def handle_message(bot: Client, message: Message):
 @client.on_inline_query()
 def handle_inline_query(bot: Client, query: InlineQuery):
     q = query.query
-    print(q)
+    # print(q)
     # print(req(parse_input(query.query)))
     # results = [InlineQueryResultArticle('شروع بازی جدید', InputTextMessageContent('متن بلند'),
     #                                     description="hello this is fde")]
